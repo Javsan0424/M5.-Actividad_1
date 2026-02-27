@@ -13,7 +13,7 @@ function App() {
       <Header></Header>
 
       <div className='flex '>
-        <div><Sidebar></Sidebar></div>
+        <div className='flex items-start'><Sidebar></Sidebar></div>
         
         <Content></Content>
       </div>
